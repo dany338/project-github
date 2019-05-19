@@ -1,5 +1,16 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Libraries
+Plugin Prop-Types for components [npm install --save prop-types](https://www.npmjs.com/package/prop-types)
+
+CMS Bulma [npm install --save bulma](https://bulma.io/)
+
+THEME integrated with bulma [npm install --save bulmaswatch](https://jenil.github.io/bulmaswatch/)
+
+Integrated with node-sass [npm install --save node-sass](https://github.com/sass/node-sass)
+
+Plugin Format Date [npm install --save dayjs](https://github.com/iamkun/dayjs#readme)
+
 ## Available Scripts
 
 In the project directory, you can run:
