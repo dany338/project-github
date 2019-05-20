@@ -54,7 +54,7 @@ const App = () => {
   const handleApplyFilters = (data) => {
     if(filters.name === '') {
       handleApplyPagination(data)
-    } else {
+    } else if(filters.name.length > 2) {
       setOrder(false)
       let reposFiltered = userReposBackup
       .filter(({ name }) => name.includes(filters.name) )
